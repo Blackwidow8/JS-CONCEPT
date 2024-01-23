@@ -80,5 +80,23 @@
 //const CostOfSoldBags = costOfBag * 30
 
 let length = prompt ('length of rectangle')
+let width = prompt ('width of rectangle')
 
-//parse
+
+let finalLength = parseFloat(length)
+let finalWidth = parseFloat(width)
+
+let area = finalLength*finalWidth
+let perimeter=(finalLength + finalWidth)*2
+
+console.log('Area')
+console.log(area)
+console.log('Perimeter')
+console.log(perimeter)
+
+
+
+
+
+ 
+
