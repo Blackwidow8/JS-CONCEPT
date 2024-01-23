@@ -10,6 +10,7 @@
  * you can reassign a variable
  * var name='Dan'
  * name= 'James'
+ * is locally scoped
   */
 
 
