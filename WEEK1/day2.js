@@ -68,3 +68,27 @@ checkAge()*/
  console.log(i)
 }*/
 
+/*let n = 16
+
+for(let i=1; i < 30; i++){
+
+   
+console.log(i)
+if (1 % 3===0 && 1 % 5===0){
+    console.log('divisible by both 3 and 5')
+} else if (2 % 3=== || 2 % 5===0)
+console.log()
+
+
+
+}*/
+
+let n = parseFloat(prompt('ENTER NUMBER'))
+let sum = 0
+for(let i=1; i < n; i++){
+
+    if(i % 3===0 || i % 5===0) {
+        sum = sum + i
+    }
+}
+console.log(sum)
