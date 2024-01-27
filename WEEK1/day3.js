@@ -65,16 +65,31 @@ function factorial(n) {
 */
 
 
-function fibonacci(n){
-    const fib = [0,1]
-for (let i=2; i < n; i++){
-    fib[i]=fib[i-1] + fib[i-2];
+//function fibonacci(n){
+   // const fib = [0,1]
+//for (let i=2; i < n; i++){
+   // fib[i]=fib[i-1] + fib[i-2];
+//}
+    //return fib 
+//}
+
+
+
+//console.log(fibonacci(7)) //[0,1,1,2,3,5,8]
+
+
+//FIBONACCI
+
+let number = 10;
+function fibonacci1(n){
+  if (n<=1){
+    return n;
+  }
+  let sequence = [0,1]
+  for(let i = 2; i < n; i++){
+    sequence.push(fibonacci1(i-1) + fibonacci1(i-2))
+  }
+  return sequence
 }
-    return fib 
-}
 
-
-
-console.log(fibonacci(7)) //[0,1,1,2,3,5,8]
-
-
+console.log(fibonacci1(8))
