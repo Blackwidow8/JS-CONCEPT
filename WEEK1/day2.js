@@ -1,4 +1,4 @@
-let school = 'Zindua'
+//let school = 'Zindua'
 
 /*if (school ==='Zindua'){
     console.log('Zindua School')
@@ -83,12 +83,32 @@ console.log()
 
 }*/
 
-let n = parseFloat(prompt('ENTER NUMBER'))
-let sum = 0
-for(let i=1; i < n; i++){
+//FUNCTION EXPRESSION
+// it has an assigning
+// const add = function (a,b){
+//     return a + b
+// }
+// console.log(add(10,20))
 
-    if(i % 3===0 || i % 5===0) {
-        sum = sum + i
-    }
-}
-console.log(sum)
+// //ARROW FUNCTIONS
+// const add2 = (a,b) =>{
+//     return a + b
+// }
+// console.log(add2(10,20))
+
+const name = 'Susan'
+const school = "Zindua School"
+
+const sentence = `My name is ${name} currently at ${school}`
+
+console.log(sentence)
+
+// let n = parseFloat(prompt('ENTER NUMBER'))
+// let sum = 0
+// for(let i=1; i < n; i++){
+
+//     if(i % 3===0 || i % 5===0) {
+//         sum = sum + i
+//     }
+// }
+// console.log(sum)

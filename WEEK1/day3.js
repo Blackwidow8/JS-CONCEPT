@@ -80,6 +80,13 @@ function factorial(n) {
 
 //FIBONACCI
 
+/**
+ * NUMBER OF STAIRWAYS TO CLIMB
+ * const staircase = (n) =>{
+ * if (n)
+ * }
+ */
+
 let number = 10;
 function fibonacci1(n){
   if (n<=1){
@@ -93,3 +100,11 @@ function fibonacci1(n){
 }
 
 console.log(fibonacci1(8))
+
+const factorial = (n) =>{
+  if (n <= 2){
+    return n
+  }
+  return n* factorial(n-1)
+}
+console.log(factorial(6))
