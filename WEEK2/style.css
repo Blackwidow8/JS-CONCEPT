@@ -26,10 +26,20 @@ body{
 
 }
 
+.parent{
+    background-color: black;
+    width:400px;
+    height: 400px;
+}
 
+.child{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
 
-
-
-.hidden{
-    display: none;
+.inner-child{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
 }

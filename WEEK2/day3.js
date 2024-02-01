@@ -47,3 +47,10 @@ parentContainer.addEventListener('click',(e)=>{
 //    }
     }
 })
+
+/**
+ * @NAMING RULES
+ * Pascal Case
+ * camelCase
+ * 
+ */
